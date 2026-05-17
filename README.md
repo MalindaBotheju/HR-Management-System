@@ -11,7 +11,7 @@
 A secure, full-stack Human Resources Management application featuring a decoupled React frontend and Spring Boot REST API backend. The system enables organizations to manage company structures by organizing departments and tracking employee information dynamically with database persistence.
 
 <p align="center">
-  <a href="https://hr-management-system-taupe.vercel.app/" target="_blank">
+  <a href="https://hr-management-system-taupe.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/%E2%96%B2%20%F0%9F%9A%80%20VIEW%20LIVE%20DEMO-000000?style=for-the-badge" alt="View Live Demo Button" />
   </a>
 </p>
