@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # 1. The Database Container
+  db:
+    image: postgres:15-alpine
+    container_name: hr_postgres
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5433:5432"
+
+  # 2. The Spring Boot Container
+  backend:
+    build: ./hr-api
+    container_name: hr_springboot
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_URL=jdbc:postgresql://db:5432/${DB_NAME}
+      - DB_USERNAME=${DB_USER}
+      - DB_PASSWORD=${DB_PASS}
+      - ADMIN_USERNAME=${ADMIN_USER}
+      - ADMIN_PASSWORD=${ADMIN_PASS}
+    depends_on:
+      - db
+
+  # 3. The React Container
+  frontend:
+    build: ./hr-frontend
+    container_name: hr_react
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8080
+      - VITE_ADMIN_USERNAME=${ADMIN_USER}
+      - VITE_ADMIN_PASSWORD=${ADMIN_PASS}
+      - VITE_AUTH_HEADER=${AUTH_HEADER}
+    depends_on:
+      - backend
