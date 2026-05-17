@@ -63,7 +63,7 @@ To populate the application environment for demonstration or testing, input the 
 ### 1. Secure Authentication Gate
 Authorized administrative personnel gain entry using centralized, case-sensitive configuration credentials.
 <p align="center">
-  <img src="screenshots/login_section.png" alt="Login Portal Interface" width="85%">
+  <img src="screenshots/login_section.png" alt="Login Portal Interface" width="50%">
 </p>
 
 ---
