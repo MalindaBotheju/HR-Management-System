@@ -71,7 +71,7 @@ Authorized administrative personnel gain entry using centralized, case-sensitive
 ### 2. Personnel Directory & Operations
 The central control panel displays active workforce records with functional utilities for real-time adjustments.
 <p align="center">
-  <img src="screenshots/employees_page.png" alt="Staff Directory Management Grid" width="75%">
+  <img src="screenshots/employees_page.png" alt="Staff Directory Management Grid" width="85%">
 </p>
 
 ---
