@@ -42,7 +42,7 @@ public class SecurityConfig {
         // This allows requests from your local machine AND your live Vercel app
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:5173",
-                "https://hr-management-system-taupe.vercel.app/" // <-- Make sure this matches your exact Vercel URL without a trailing /
+                "https://hr-management-system-taupe.vercel.app" // <-- Make sure this matches your exact Vercel URL without a trailing /
         ));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
