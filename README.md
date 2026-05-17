@@ -63,7 +63,7 @@ To populate the application environment for demonstration or testing, input the 
 ### 1. Secure Authentication Gate
 Authorized administrative personnel gain entry using centralized, case-sensitive configuration credentials.
 <p align="center">
-  <img src="screenshots/login_section.png" alt="Login Portal Interface" width="50%">
+  <img src="screenshots/login_section.png" alt="Login Portal Interface" width="40%">
 </p>
 
 ---
@@ -71,7 +71,7 @@ Authorized administrative personnel gain entry using centralized, case-sensitive
 ### 2. Personnel Directory & Operations
 The central control panel displays active workforce records with functional utilities for real-time adjustments.
 <p align="center">
-  <img src="screenshots/employees_page.png" alt="Staff Directory Management Grid" width="85%">
+  <img src="screenshots/employees_page.png" alt="Staff Directory Management Grid" width="75%">
 </p>
 
 ---
