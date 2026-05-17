@@ -1,8 +1,20 @@
 # HR Management System
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot Badge" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL Badge" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Badge" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render Badge" />
+</p>
+
 A secure, full-stack Human Resources Management application featuring a decoupled React frontend and Spring Boot REST API backend. The system enables organizations to manage company structures by organizing departments and tracking employee information dynamically with database persistence.
 
-**Live Application URL:** [https://hr-management-system-taupe.vercel.app/](https://hr-management-system-taupe.vercel.app/)
+<p align="center">
+  <a href="https://hr-management-system-taupe.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/%E2%96%B2%20%F0%9F%9A%80%20VIEW%20LIVE%20DEMO-000000?style=for-the-badge" alt="View Live Demo Button" />
+  </a>
+</p>
 
 ---
 
